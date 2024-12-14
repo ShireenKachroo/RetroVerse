@@ -6,7 +6,7 @@ Welcome to **RetroVerse**, a vibrant and nostalgic website created as part of th
 
 ## 💡 **About the Project**
 
-Retro_World is designed to transport users back to the golden era of retro vibes, infused with modern web development techniques. It's more than just a website—it's an interactive experience, highlighting my passion for design, web development, and creativity.
+RetroVerse is designed to transport users back to the golden era of retro vibes, infused with modern web development techniques. It's more than just a website—it's an interactive experience, highlighting my passion for design, web development, and creativity.
 
 This website includes various sections, each thoughtfully crafted to reflect the retro theme while offering an engaging user experience.
 
@@ -66,4 +66,4 @@ If you have any questions or feedback, feel free to connect with me on:
 
 ---
 
-Enjoy the trip down memory lane with **Retro_World**! 🎮✨
+Enjoy the trip down memory lane with **RetroVerse**! 🎮✨
