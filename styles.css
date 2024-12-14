@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: lime;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+/*navbar */
+.navbar {
+    width: auto;
+    margin-bottom: 30px;
+    background-color: black;
+    overflow: hidden;
+    border-bottom: 2px solid cyan;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-right: 2px solid cyan;
+    transition: background-color 0.3s, text-shadow 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: cyan;
+    color: #333;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan;
+}
+
+.navbar a:last-child {
+    border-right: none;
+}
+
+/*content */
+h1 {
+    color: cyan;
+    text-shadow: 2px 2px 5px magenta;
+}
+
+h2 {
+    color: #00ffff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.blink {
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to { visibility: hidden; }
+}
+
+marquee {
+    color: yellow;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*buttons */
+.button, button {
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    color: #000;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 0 0 3px #00ff00;
+    box-shadow: 0 0 10px #ff00ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover, button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00ff00;
+}
+
+/*sections */
+.content, .fun-zone, .fan-club, .fan-area, .club-messages {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 0 0 15px #00ffff;
+    margin: 20px;
+    color: #00ff00;
+}
+
+.content {
+    text-align: center;
+    font-family: "Courier New", monospace;
+    border: 2px dashed #00ffff;
+}
+
+.fun-zone, .fan-club {
+    font-family: "Courier New", monospace;
+    margin: 30px auto;
+    border: 2px solid #ff00ff;
+    background: linear-gradient(135deg, #000, #222);
+}
+
+.fan-club {
+    max-width: 600px;
+}
+
+h3 {
+    color: #00ffff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+input, .retro-buttons input {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background-color: #000;
+    color: #00ff00;
+    box-shadow: 0 0 5px #00ffff;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+.retro-buttons button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    text-shadow: 0 0 3px #00ff00;
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+
+strong {
+    color: #ff00ff;
+}
+
+.about-items p {
+    text-align: left;
+    margin: 10px 20%;
+}
+
+#guestbook{
+	padding:10px 10px;
+	margin: 5px 5px;
+}
+
+
+
