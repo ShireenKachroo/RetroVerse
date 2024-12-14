@@ -1,6 +1,6 @@
 # RetroVerse 🌐
 
-Welcome to **RetrVerse**, a vibrant and nostalgic website created as part of the **'Codedex Mini Holiday Hackathon'**. This project is a celebration of the retro aesthetic combined with interactive features, showcasing my creativity and skills in **HTML**, **CSS**, and **JavaScript**.
+Welcome to **RetroVerse**, a vibrant and nostalgic website created as part of the **'Codedex Mini Holiday Hackathon'**. This project is a celebration of the retro aesthetic combined with interactive features, showcasing my creativity and skills in **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
