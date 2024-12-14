@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroVerse</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#interactive">Interactive Fun</a>
+        <a href="#fan-club">Fan Club</a>
+        <a href="#Guestbook">Guestbook</a>
+    </div>
+    <h1>Welcome to RetroVerse</h1>
+    <marquee>Explore the wonders of the early web! Enjoy your stay in retro paradise🌟</marquee>
+    <div class="content">
+        <h2 id="about">About Me</h2>
+        <p class="blink">Welcome to my RAD corner of the web! 🚀</p>
+        <div class="content">
+            <p>
+                I'm Shireen, your host for this nostalgic trip down memory lane. This site is a flashback to the days of dial-up modems,
+                floppy disks, and when every webpage had a cool spinning GIF or two (yes, they’re here too!).
+            </p>
+            <p>🤓 <strong>A Few Bytes About Me:</strong></p>
+            <div class="about-items">
+                <p>🕹️ I'm a coder by day and retro gamer by night. Pac-Man, Tetris, Space Invaders, and a fan of old-school Indian games like Kho Kho and Pitthu!</p>
+                <p>💡 Obsessed with all things neon, 90s tech, and Bollywood! 🎬</p>
+                <p>🎤 Secretly dreaming of headlining a karaoke night with 90s Bollywood hits.</p>
+            </div>
+            <p>
+                <strong>🌟 Why This Site?</strong><br>
+                Because the early internet was a vibe: quirky, personal, and unapologetically fun! Grab a cup of Tang, Chai or Lassi,
+                and click your way through my little cyber galaxy. 🌌
+            </p>
+            <p><strong>P.S.</strong> Don’t forget to sign the guestbook before you leave—it’s totally tubular! 🖊️</p>
+        </div>
+        <div id="counter">Visitors: 0</div>
+    </div>
+
+    <div class="content">
+        <div class="fun-zone">
+            <h2 id="interactive">🌈 Interactive Fun Zone 🌟</h2>
+            <p>Welcome to the Fun Zone, where the good times roll like it’s 1995! Click below to relive some retro magic.</p>
+            <div class="retro-buttons">
+                <button onclick="startQuiz()">🎮 Retro Quiz: Bollywood Edition</button>
+                <button onclick="spinWheel()">🎡 Spin the Bollywood Wheel</button>
+                <button id="nostalgia-button" onclick="showNostalgiaImages()">✨ Nostalgia Surprise: 90s India</button>
+					<div id="nostalgia-images" style="display: none; margin-top: 20px;">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmlY_8dl7PbYsnocvFpKvu0IEj_3ZVM_iDJCvXT5weUvYKwbV9NDeHbEH0JpvGhPCpsg4&usqp=CAU" alt="Bollywood hits" width="300" height="300" style="margin-right: 10px;">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVi1PfWk09LFyF1fHRH-2uVWuqpdsIX31eHw&s" alt="90s Bollywood Singers" width="300" height="300" style="margin-right: 10px;">
+						<img src="https://images.pexels.com/photos/3944104/pexels-photo-3944104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="retro devices" width="300" height="300">
+						<img src="https://www.rollingstone.com/wp-content/uploads/2022/12/RollingStone_-200-Greatest-Singers_Collage_Final.jpg" alt="90s hollywood singers" width="300" height="300">
+					</div>
+				</div>
+        </div>
+        <button class="button" onclick="guessMood()">Guess My Mood (90s Bollywood)</button>
+        <button class="button" onclick="tellFortune()">Get Your Bollywood Fortune</button>
+    </div>
+
+	<div class="content">
+        <h2 id="Guestbook">Guestbook</h2>
+        <textarea id="guestbook" rows="5" cols="30" placeholder="Leave your comments here..."></textarea>
+        <br>
+        <button class="button" onclick="addComment()">Submit</button>
+        <div id="comments"></div>
+    </div>
+
+    <div class="fan-club">
+        <h2 id="fan-club">🎤 Retro Fan Club 🎧</h2>
+        <p>Welcome to the ultimate retro fan club! Join us to relive the golden era of music, movies, and gaming. Let’s vibe together, with a dash of Bollywood! 🌟</p>
+        <div class="membership-form">
+            <h3>💌 Join the Club</h3>
+            <p>Enter your details to become an official retro fan member!</p>
+            <input type="text" id="nameInput" placeholder="Enter Your Name">
+            <input type="email" id="emailInput" placeholder="Enter Your Email">
+            <button onclick="submitForm()">Join Now</button>
+        </div>
+        <div id="fan-area" class="fan-area">
+            <h3>🎮 Retro Poll</h3>
+            <p>What's your favorite retro thing from India?</p>
+            <ul type="none">
+                <li><button onclick="vote('Music')">🎵 Bollywood Music</button></li>
+                <li><button onclick="vote('Movies')">🎥 Bollywood Movies</button></li>
+                <li><button onclick="vote('Games')">🕹️ Retro Games</button></li>
+            </ul>
+        </div>
+        <div id="club-messages" class="club-messages"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
