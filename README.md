@@ -19,6 +19,7 @@ This website includes various sections, each thoughtfully crafted to reflect the
 - **Interactive Fun Section:** Includes retro-inspired mini-games and interactive elements to engage users.
 - **Retro Fan Club:** A dedicated section to connect and celebrate the retro fandom, complete with a membership form.
 - **Guestbook:** An interactive guestbook where visitors can leave their messages or feedback.
+- **Flashback Page:** A flashback page showcasing the beauty of the era of 90s(games,movies,singers,dialogues etc. which were famous then)
 - **Responsive Design:** The website is fully responsive and ensures a great user experience across devices.
 
 ---
@@ -73,5 +74,5 @@ If you have any questions or feedback, feel free to connect with me on:
 
 ---
 
-Website Link - https://shireenkachroo.github.io/RetroVerse/
+Website Link - https://shireenkachroo.github.io/RetroVerse/<br>
 Enjoy the trip down memory lane with **RetroVerse**! 🎮✨
