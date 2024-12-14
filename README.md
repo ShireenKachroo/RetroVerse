@@ -55,12 +55,13 @@ Participating in this hackathon was an exciting challenge that helped me combine
 
 ## 📷 **Preview**
 - About Section
-![image](https://github.com/user-attachments/assets/8b8523c6-e305-42d0-ac7c-7eed352d0337)
-
+![image](https://github.com/user-attachments/assets/8eddb682-f638-4428-92ae-f6a968a08fa2)
 - Fun Zone and Guestbook Section
 ![image](https://github.com/user-attachments/assets/bc636622-65d8-454c-a5a0-a5aff9a63692)
 - Fan Club Section<br>
 ![image](https://github.com/user-attachments/assets/2dbfe8ab-ffe8-406a-99db-0ac96bdd547e)
+- Flashback page<br>
+![image](https://github.com/user-attachments/assets/a19b0124-1349-49bc-8fa0-acf8cec926d9)
 
 ---
 
