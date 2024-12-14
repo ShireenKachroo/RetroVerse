@@ -1,0 +1,69 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #f1c40f;
+    margin: 0;
+    padding: 0;
+}
+
+.retro-header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #f39c12, #e74c3c);
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.retro-header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.retro-header p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.flashback-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: #222;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f1c40f;
+}
+
+.gallery-item .caption {
+    font-size: 1rem;
+    padding: 10px;
+    color: #ecf0f1;
+}
+
+@media (max-width: 768px) {
+    .retro-header h1 {
+        font-size: 2rem;
+    }
+
+    .retro-header p {
+        font-size: 1rem;
+    }
+
+    .gallery-item {
+        max-width: 90%;
+    }
+}
